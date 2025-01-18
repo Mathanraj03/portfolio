@@ -10,8 +10,8 @@ function Navbar() {
   const handelDownload = () => {
     const link = document.createElement('a');
     link.href = new URL("../assets/cv/Resume.pdf", import.meta.url).href;
-    link.target = '_blank';
-    link.download = 'Resume.pdf';
+    link.target = "_blank";
+    link.download = "Resume.pdf";
     link.click();
   }
 
