@@ -10,7 +10,7 @@ function Contact() {
     { label: 'linkedin', link: 'https://www.linkedin.com/in/mathan-raj-2439b6285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', icon: (<AiOutlineLinkedin className='h-7 w-7 hover:text-[#9b36fa] hover:scale-125 ' />) },
     { label: 'github', link: 'https://github.com/Mathanraj03', icon: (<AiOutlineGithub className='h-7 w-7 hover:text-[#9b36fa] hover:scale-125 ' />) },
     { label: 'whatsapp', link: 'https://wa.me/+919442802613', icon: (<AiOutlineWhatsApp className='h-7 w-7 hover:text-[#9b36fa] hover:scale-125 ' />) },
-    { label: 'e-mail', link: 'hello.mathanraj@gmail.com', icon: (<AiOutlineMail className='h-7 w-7 hover:text-[#9b36fa] hover:scale-125 ' />) },
+    { label: 'e-mail', link: 'mailto:hello.mathanraj@gmail.com', icon: (<AiOutlineMail className='h-7 w-7 hover:text-[#9b36fa] hover:scale-125 ' />) },
     
   ]
 
