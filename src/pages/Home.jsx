@@ -16,7 +16,7 @@ function Home() {
   }
 
   return (    
-      <div className='md:min-h-screen md:pt-16 pt-12'>
+      <div className='min-h-screen md:pt-16 pt-12'>
         <div className='text-center pt-20'>
           <motion.h1
             variants={fadeAnimation}
