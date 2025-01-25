@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/assets/cv/(.*)",
+      "source": "/cv/(.*)",
       "headers": [
         {
           "key": "Content-Disposition",
