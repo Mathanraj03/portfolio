@@ -1,0 +1,41 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global */
+:root {
+  --bg: #0b0b0b;
+  --panel: #101010;
+  --accent: #7b39e6;
+  --haccent: #8c46fd;
+  --muted: #918f8f;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: #ffffff;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.section-wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.card {
+  background: var(--panel);
+  border-radius: 0.6rem;
+}
+
+/* utility tweak */
+a { color: inherit; text-decoration: none; }
